@@ -29,7 +29,7 @@ def setcookie():
         domain=request.host,
         path='/',
         secure=True,
-        httponly=True,
+        httponly=False,
         samesite='lax'
         )
     return resp
